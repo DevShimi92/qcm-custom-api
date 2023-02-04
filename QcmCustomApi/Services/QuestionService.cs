@@ -1,4 +1,4 @@
-using QcmCustomApi.Interfaces.Repository;
+using QcmCustomApi.Interfaces.Repositories;
 using QcmCustomApi.Interfaces.Services;
 
 namespace QcmCustomApi.Services

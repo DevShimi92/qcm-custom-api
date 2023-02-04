@@ -1,6 +1,6 @@
-namespace QcmCustomApi.Interfaces.Repository
+namespace QcmCustomApi.Interfaces.Repositories
 {
-    public  interface IQuestionRepository
+    public interface IQuestionRepository
     {
 
     }

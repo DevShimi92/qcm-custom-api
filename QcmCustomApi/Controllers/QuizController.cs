@@ -3,13 +3,13 @@ using QcmCustomApi.Interfaces.Services;
 
 namespace QcmCustomApi.Controllers
 {
-    public class QuestionController : Controller
+    public class QuizController : Controller
     {
-        private readonly IQuestionService questionService;
+        private readonly IQuizService quizService;
 
-        public QuestionController(IQuestionService _questionService) 
+        public QuizController(IQuizService _quizService)
         {
-            this.questionService = _questionService;
+            this.quizService = _quizService;
         }
         [HttpPost]
         public string Create()

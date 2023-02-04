@@ -1,6 +1,6 @@
 namespace QcmCustomApi.Interfaces.Services
 {
-    public  interface IQuestionService
+    public interface IQuestionService
     {
 
     }

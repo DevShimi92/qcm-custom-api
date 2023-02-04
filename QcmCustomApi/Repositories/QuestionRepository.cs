@@ -1,8 +1,8 @@
-using QcmCustomApi.Interfaces.Repository;
+using QcmCustomApi.Interfaces.Repositories;
 
-namespace QcmCustomApi.Repository
+namespace QcmCustomApi.Repositories
 {
-    public  class QuestionRepository : IQuestionRepository
+    public class QuestionRepository : IQuestionRepository
     {
         public QuestionRepository() { }
     }

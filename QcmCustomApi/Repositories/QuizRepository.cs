@@ -2,9 +2,9 @@
 
 namespace QcmCustomApi.Repositories
 {
-    public class QuizzRepository : IQuizRepository
+    public class QuizRepository : IQuizRepository
     {
-        public QuizzRepository() { }
+        public QuizRepository() { }
 
     }
 }

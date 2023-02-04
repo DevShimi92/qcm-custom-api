@@ -1,6 +1,17 @@
+using QcmCustomApi.Interfaces.Repositories;
+using QcmCustomApi.Interfaces.Services;
+using QcmCustomApi.Repositories;
+using QcmCustomApi.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
+
+builder.Services.AddScoped<IQuestionRepository, QuestionRepository>();
+builder.Services.AddScoped<IQuestionService, QuestionService>();
+
+builder.Services.AddScoped<IQuizRepository, QuizRepository>();
+builder.Services.AddScoped<IQuizService, QuizService>();
 
 builder.Services.AddCors();
 

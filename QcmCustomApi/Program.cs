@@ -1,8 +1,5 @@
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddRazorPages();
-
 builder.Services.AddCors();
 
 builder.Services.AddHealthChecks();
@@ -22,7 +19,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthorization();
+//app.UseAuthorization();
 
 app.UseCors(builder => builder
     .AllowAnyOrigin()
@@ -30,7 +27,5 @@ app.UseCors(builder => builder
     .AllowAnyHeader());
 
 app.MapHealthChecks("/health");
-
-app.MapRazorPages();
 
 app.Run();

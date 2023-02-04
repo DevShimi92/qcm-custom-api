@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QcmCustomApi", "QcmCustomApi\QcmCustomApi.csproj", "{4469EB39-1B5A-4206-807B-7BD95C6B5627}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QcmCustomApi.Tests", "QcmCustomApi.Tests\QcmCustomApi.Tests.csproj", "{AE565278-9397-493E-A85A-295E84F62637}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4469EB39-1B5A-4206-807B-7BD95C6B5627}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4469EB39-1B5A-4206-807B-7BD95C6B5627}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4469EB39-1B5A-4206-807B-7BD95C6B5627}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE565278-9397-493E-A85A-295E84F62637}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE565278-9397-493E-A85A-295E84F62637}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE565278-9397-493E-A85A-295E84F62637}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE565278-9397-493E-A85A-295E84F62637}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
